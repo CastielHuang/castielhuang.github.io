@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试网页</title>
+	<style type='test/css'>
+		.portrait{
+		text-align:center;
+	}
+	</style>
+</head>
+<body>
+
+<div class='ecpk'>
+	<h1>中法工程师学院</h1>
+	<img portrait='ecpk1.webp.jpg' width='50%' height="50%">
+	<p>
+		北航中法工程师学院是由中法两国教育部的支持下，由北京航空航天大学与法国中央理工大学集团（法国境内巴黎、里昂、里尔、南特、马赛5所中央理工大学组成）共同创建，并于2005年开始招生。这是一所系统引入法国工程师学历教育体系和培养模式，立足北航空天信融合特色的学科优势和培养实力，培养高水平国际通用工程师的学院。
+		中法工程师学院作为国际化人才培养改革实验田，将继续秉承“发展、开放、合作、共赢”的办学理念，借力“高校国际化示范学院推进计划”，接轨国际一流认证体系和培养体系，培养具有“全球视野、系统思维、协同创新”能力，能胜任世界多样性和快速变化挑战的工程领导领军人才，率先建成扎根中国培养国际通用工程师的世界一流学院，引领示范我国高等工程教育改革发展。
+	</p>
+</div>
+
+<form
+  action="https://formspree.io/f/mdojrpwz"
+  method="POST"
+>
+
+	<p>
+	Q：你是否是中法的学生？
+	</p>
+  	是的:
+	<input type="checkbox" name="student or not" value="yes" checked="checked" />
+	<br />
+	不是: 
+	<input type="checkbox" name="student or not" value="no" />
+	<br /><br />
+
+  	<p>
+		Q：你喜欢中法吗？
+	</p>
+  	一般:
+	<input type="checkbox" name="like or not" value="commun" checked="checked" />
+	<br />
+	喜欢: 
+	<input type="checkbox" name="like or not" value="like" />
+	<br />
+	非常喜欢: 
+	<input type="checkbox" name="like or not" value="very like" />
+	<br /><br />
+
+	<label>
+    你的邮箱（必填）:
+    <input type="email" name="email">
+  	</label>
+  	<label>
+    你的留言:
+    <textarea name="message"></textarea>
+  	</label>
+  	<button type="submit">Send</button>
+
+</form>
+
+</body>
+</html>
